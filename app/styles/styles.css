@@ -7,7 +7,7 @@ header {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   align-items: end;
-  border-bottom: .3rem solid red;
+  border-bottom: .3rem solid aquamarine;
 }
 
 h1 {
@@ -23,5 +23,17 @@ nav {
 nav a {
   text-decoration: none;
   color: darkorchid;
-  font-size: 5px;
+  font-size: 50px;
+}
+
+ul {
+  background: black;
+}
+
+li {
+  text-decoration-color: dodgerblue;
+}
+
+p {
+  font-size: 7px;
 }
