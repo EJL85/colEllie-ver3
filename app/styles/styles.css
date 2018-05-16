@@ -1,5 +1,6 @@
 body {
   background: chartreuse;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -14,6 +15,8 @@ h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
   color: hotpink;
+  transform: rotateX(180deg);
+  text-shadow: #333 .15vw .15vw .15vw;
 }
 
 nav {
@@ -25,3 +28,10 @@ nav a {
   color: darkorchid;
   font-size: 5px;
 }
+
+a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+
